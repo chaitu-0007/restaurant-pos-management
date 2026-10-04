@@ -1,0 +1,23 @@
+# --- Python ---
+__pycache__/
+*.pyc
+backend/venv/
+venv/
+.venv/
+
+# --- Generated SQLite database (demo data ships in backend/seed.py, NOT here) ---
+backend/pos.db
+*.db-journal
+
+# --- Node / Vite ---
+frontend/node_modules/
+frontend/dist/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# IMPORTANT: seed data must always ship. Never ignore these:
+!backend/seed.py
